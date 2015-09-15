@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>pomodoro</title>
+        <meta charset="utf-8">
+    	<link rel="stylesheet" type="text/css" href="asset/style.css">
+        <script  type = "text/javascript" src="asset/jquery.min.js"></script>    
+        <script src="asset/chart.js"></script>
+        <script src="asset/main.js"></script>
+        <script src="asset/timer.js"></script>
+    </head>
+    <body>
+    	<header>
+			<div id="header-container">
+            <ul>
+				<li><a href="index.html">pomodoro</a></li>
+                <li><a href="statistics.html">stat</a></li>
+				<li>setting</li>
+			</ul>
+                <div id="work-inventory-bar">inventory</div>
+                <span class="arrow-head">
+                </span>
+                <aside class="modal">
+                    <div class="todo-today">
+                        <h2>TODO TODAY</h2>
+                        <textarea></textarea>
+                    </div>
+                    <div class="work-inventory">
+                        <h2>WORK INVENTORY</h2>
+                        <textarea></textarea>
+                    </div>
+                </aside>
+            </div>
+		</header>
+    	<div id="top-left">
+    	<section class="center">
+           <canvas id="myChart" width="360" height="360">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+    	</section>
+    </body>
+</html>
